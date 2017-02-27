@@ -10,7 +10,8 @@ sudo apt-get update -y
 sudo apt-get install php7.0 -y 
 sudo apt-get install php7.0-mysql -y
 
-
+#installing zip
+ sudo apt-get install unzip -y
 
 sudo mkdir /vagrant/www
 # echo "
@@ -182,6 +183,7 @@ sudo mysql_install_db
 sudo apt-get update
 sudo apt-get install -y php5-gd libssh2-php
 sudo apt-get install -y php7.0-gd
+sudo apt-get install php7.0-zip -y
 
 sudo apt-get install php7.0-xdebug
 sudo echo '\n zend_extension="/usr/lib/php/20121212/xdebug.so"' >> /etc/php/7.0/apache2/php.ini
